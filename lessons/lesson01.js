@@ -18,3 +18,6 @@ const clockObservable = clickObservable
 clockObservable
   .subscribe(clock => clock.subscribe(tick => console.log(tick))) // tick is gomming from internal
 
+/*
+ But there must be better ways to do this!
+*/
