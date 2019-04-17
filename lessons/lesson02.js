@@ -20,7 +20,7 @@ const clockObservable = clickObservable.pipe(
 );
 
 clockObservable.subscribe(x => console.log(x)); // Starts printing the interval numbers each time we got a click
-// The difference with the past lesson is this time it will to unsubscribe to the past observable, so a new counter will start each time we click
+// The difference with the past lesson is this time it will unsubscribe to the past observable, so a new counter will start each time we click
 
 // The following marble diagram explains it
 // flattening
