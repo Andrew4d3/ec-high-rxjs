@@ -6,3 +6,5 @@ Course Notes for course: Use Higher Order Observables in RxJS Effectively (Egghe
 - How to generate High order observables using operators like `switchMap`, `mergeMap` and `concatMap`
 - Use cases for the operators mentioned above
 - More advanced high order operators like `window` and `groupBy`
+
+[Course Link](https://egghead.io/courses/use-higher-order-observables-in-rxjs-effectively)
